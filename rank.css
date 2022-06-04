@@ -1,0 +1,38 @@
+.rank {
+    display: none;
+    height: 5rem;
+    margin-top: .2rem;
+}
+.rank ul li {
+    height: 1rem;
+    width: 90%;
+    list-style: none;
+    margin: 0 .16rem .12rem;
+    border-radius: .08rem;
+    background-color: antiquewhite;
+}
+.rank ul ol li h2 {
+    margin: 0 .12rem .04rem .12rem;
+    line-height: .22rem;
+    font-size: .16rem;
+    font-weight: 700;
+}
+.rank ul li ol {
+    width: 1.6rem;
+    float: left;
+}
+.rank ul li ol div {
+    margin: 0 .12rem .04rem;
+    line-height: .16rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 1.5rem;
+}
+.rank ul li img {
+    float: right;
+    margin-left: .3rem;
+    margin-top: .1rem;
+    width: .8rem;
+    height: .8rem;
+}

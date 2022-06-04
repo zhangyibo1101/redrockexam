@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@media screen and (max-aspect-ratio: 13 / 9){
+    html {
+        font-size: 26.66666667vw;
+    }
+    body {
+        font-size: .12rem;
+    }
+}
